@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  .cont {
+    @apply max-w-[1440px] mx-auto px-5 md:px-10;
+  }
+
+  .btn-default {
+    @apply rounded bg-black text-white px-5 py-2 tracking-wide hover:bg-gray-800;
+  }
+}
